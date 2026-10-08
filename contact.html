@@ -1,0 +1,84 @@
+<!-- contact page -->
+ <!DOCTYPE html >
+ <html lang="en">
+
+ <head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0"
+    <title>Contact Me | Christina Bheir </title>
+ </head>
+
+ <body>
+    <div id="wrapper">
+        <header>
+            <h1>Contact Me</h1>
+            <p>Please feel free to contact me!</p>
+        </header>
+<!-- I referred back to the lecture slides navigation example of including multiple pages -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="about.html">About Me</a> </li>
+                <li><a href="projects.html">Projects</a> </li>
+                <li><a href="contact.html">Contact Me</a> </li>
+            </ul>
+        </nav>
+        <!-- organization through semantic elements -->
+        <main>
+            <h2>Send me your project related questions or comments</h2>
+
+            <p>
+                Please complete the form below.
+                Fill out mandatory fields.
+            </p>
+<!-- form validation -->
+            <form action="#" method="get">
+<!-- FULL NAME -->
+                <p>
+                    <label  for="name">Full Name:</label>
+                    <input  type="text" 
+                            id="name"
+                            name="name"
+                            required>
+                </p>
+<!-- EMAIL -->
+                 <p>
+                    <label  for="email">Email:</label>
+                    <input  type="email" 
+                            id="email"
+                            name="email"
+                            required>
+                </p>
+<!-- PHONE NUMBER -->
+                 <p>
+                    <label  for="phone">Phone Number:</label>
+                    <input  type="tel" 
+                            id="phone"
+                            name="phone"
+                            pattern="[0-9]{10}"
+                            title="Enter Phone Number"
+                            required>
+                </p>
+<!-- COMMENTS -->
+                 <p>
+                    <label  for="comments">Comments:</label>
+                    <textarea id="comments"
+                              name ="comments"
+                              rows="5"
+                              required></textarea>
+    
+                </p>
+
+            </form>
+
+        </main>
+
+        <footer>
+            <p> © 2026 by Christina Bheir </p>
+            <p>Email: christina.bheir@ontariotechu.net </p>
+        </footer>
+        
+    </div>
+
+ </body>
+ </html>
