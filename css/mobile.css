@@ -1,0 +1,111 @@
+/* mobile layout */
+/* based on week 1 and week 3 lecture slides and tutorial */
+@charset "UTF-8";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: royalblue;
+    background-color: pink;
+    background: linear-gradient(to bottom, pink 0%,  royalblue 100%);
+    margin:0px;
+    padding:0px;
+}
+/* fluid and wrapper from week 3 slides */
+#wrapper {
+    width:100%;
+    background-color: ghostwhite;  
+}
+
+header {
+    background-color: royalblue;
+    background: linear-gradient(45deg,royalblue 0%, lightblue 100%);
+    color:floralwhite;
+    padding: 15px;
+}
+/* week 3 slides */
+h1, h2, h3, h4, h5, h6, p, li {
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+h2 {
+    color: midnightblue;
+}
+/* week 3 notes about nav buttons */
+nav {
+    background-color: plum;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav li {
+    display:inline-block;
+    margin: 10px;
+}
+
+nav a {
+    background-color: royalblue;
+    color: ghostwhite;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 15px;
+
+}
+
+nav a:hover {
+    background-color: darkslategray;
+}
+
+/* material from week 1 */
+main {
+    padding: 10px;
+}
+
+section {
+    background-color: beige;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* forms */
+
+form {
+    background-color: beige;
+    padding: 10px;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 8px;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+button {
+    background-color: royalblue;
+    color: ghostwhite;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: royalblue;
+    color: ghostwhite;
+    padding: 15px;
+}
+
+footer a {
+    color: antiquewhite;
+}
+
