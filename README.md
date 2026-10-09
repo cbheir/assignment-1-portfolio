@@ -112,12 +112,12 @@ https://github.com/cbheir/assignment-1-portfolio
 Github website link:
 https://cbheir.github.io/assignment-1-portfolio 
 
-## 7. REFERENCE and RESOURCE MATERIAL
-- Week 1 Lecture Notes and Slides 
-- Week 2 Lecture Notes and Slides 
-- Week 3 Lecture Notes and Slides 
-- Week 4 Lecture Notes and Slides 
-- Tutorial Notes and Slides
+## 7. CODE SOURCE - REFERENCE and RESOURCE MATERIAL
+- Week 1 Lecture Notes and Slides used in all HTML and CSS files
+- Week 2 Lecture Notes and Slides used in all HTML and CSS files
+- Week 3 Lecture Notes and Slides used in all HTML and CSS files
+- Week 4 Lecture Notes and Slides used in all HTML and CSS files
+- Tutorial Notes and Slides used in all HTML and CSS files
 - Internet was used less than 10% in the capacity to better grasp certain concepts not to apply them.
 It was used for research purposes not application purposes. Majority of my code is from course material
 along with what I've previously learned from other courses and implemented my learning and knowledge into this assignment.
