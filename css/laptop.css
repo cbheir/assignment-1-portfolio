@@ -37,3 +37,73 @@ nav {
     padding: 10px;
 }
 
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display:inline-block;
+    margin: 5px;
+}
+
+nav a {
+    background-color: royalblue;
+    color: ghostwhite;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+nav a:hover {
+    background-color: darkslategray;
+}
+
+/* material from week 1 */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: beige;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* forms */
+
+form {
+    background-color: beige;
+    padding: 15px;
+}
+
+input, textarea {
+    padding: 8px;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+button {
+    background-color: royalblue;
+    color: ghostwhite;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: royalblue;
+    color: ghostwhite;
+    padding: 15px;
+}
+
+footer a {
+    color: antiquewhite;
+}
+
