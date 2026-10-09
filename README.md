@@ -1,5 +1,5 @@
-## INFR3120 – Web and Scripting Programming
-# Assignment 1: Portfolio Site using HTML and CSS
+# INFR3120 – Web and Scripting Programming
+## Assignment 1: Portfolio Site using HTML and CSS
 
 By using HTML5 and CSS3, I was able to develop this portfolio website. Through the website pages
 each user is able to explore my academic background, skills and interests. This website is also
@@ -48,11 +48,11 @@ and it accomodates better to a smaller screen.
 In all 3 CSS files I have used a standard linear gradient and an angled linear gradient.
 Since i've added them to all 3 CSS files, they will appear on all pages of the website.
 
-# Standard linear gradient: background: linear-gradient(to bottom, pink 0%,  royalblue 100%);
+### Standard linear gradient: background: linear-gradient(to bottom, pink 0%,  royalblue 100%);
 This is in the body, it creates a colour transition from the top to the bottom, from pink to royal blue.
 Pink comes before the gradient.
 
-# Angled linear gradient: background: linear-gradient(45deg,royalblue 0%, lightblue 100%);
+### Angled linear gradient: background: linear-gradient(45deg,royalblue 0%, lightblue 100%);
 This is in the header, it creates a diagonal transition from royal blue to light blue. Royal blue comes before the gradient.
 
 ## 4. COLOUR SCHEME - my choice and application
